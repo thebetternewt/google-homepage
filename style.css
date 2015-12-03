@@ -1,0 +1,205 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+/* Header CSS */
+
+ul {
+	position: relative;
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	top: 5px;
+	background-color: white;
+	vertical-align: middle;
+	font-size: 13px;
+}
+
+li {
+	float: left;
+
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 4px 8px;
+	line-height: 24px;
+	text-decoration: none;
+	vertical-align: middle;
+
+}
+
+li:hover {
+	background-color: #111;
+}
+
+li img {
+	padding: 0;
+	height: 20px;
+	vertical-align: middle;
+}
+
+#launch_icon {
+	height: 16px;
+}
+
+#photo {
+	height: 32px;
+	border-radius: 16px;
+	padding: 0;
+}
+
+#icon_li {
+	padding: 6px 16px;
+	line-height: 0;
+}
+
+#photo_li {
+	padding:0 24px 0 16px;
+	line-height: 32px;
+	vertical-align: middle; 
+}
+
+.feat_img {
+	position: absolute;
+	display: block;
+	margin-top: 89px;
+	height: 233px; width: 100%;
+}
+
+/* Body CSS */
+
+.feat_img img {
+	max-width: 272px;
+	padding-top: 109px;
+}
+
+.search_f {
+	position: absolute;
+	display: block;
+	height: 128px; width: 100%;
+
+	top: 311px;
+	margin: 0 auto;
+	padding-top: 8px; 
+
+}
+
+#search_box {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	height: 38px; width: 584px;
+	border: 1px solid #4285f4;
+	padding: 0;
+}
+
+#search_text {
+	position: relative;
+	display: inline;
+	height: 26px;
+	margin: 0 auto;
+	padding: 6px 9px 0 9px;
+	float: right;
+	bottom: 0;
+}
+
+#search_box img {
+	position: relative;
+	display: inline;
+	margin: 0;
+	padding: 6px;
+	height: 26px;
+	float: right;
+	bottom: 0;
+}
+
+#search_text {
+	width: 525px;
+	float: left;
+	border-style: none;
+	font-size: 16px;
+}
+
+
+textarea, input {
+	outline: none;
+	outline-color: transparent;
+	outline-style: none;
+
+}
+
+.search_buttons {
+	position: relative;
+	display: block;
+	padding-top: 18px;
+	width: 571px; height: 58px;
+	margin: 0 auto;
+}
+
+input[type=submit] {
+    margin: 11px 4px;
+    padding: 2px 16px;
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    color: #757575;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Footer CSS */
+
+.footer {
+	position: absolute;
+	display: inline;
+	height: 40px; width: 100%;
+	bottom: 0;
+
+	background-color: #f2f2f2;
+	z-index: 1;
+}
+
+#f_links1 {
+	position: relative;
+	float: left;
+	width: 360px;
+}
+
+#f_links2 {
+	position: relative;
+	float: right;
+	width: 360px;
+}
+
+.links_b{
+	position: relative;
+	display: inline;
+	float: left;
+	margin: 0;
+	padding-left: 27px;
+	height: 24px; width: 64px;
+
+	text-align: right;
+	line-height: 40px;
+	font-size: small;
+	color: #666666;
+}
+
+.links_c {
+	position: relative;
+	display: inline;
+	float: right;
+	margin: 0;
+	padding-right: 27px;
+	height: 24px; width: 64px;
+
+	text-align: right;
+	line-height: 40px;
+	font-size: small;
+	color: #666666;
+}
